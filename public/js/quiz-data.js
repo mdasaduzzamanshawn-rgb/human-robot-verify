@@ -53,14 +53,14 @@ window.QUIZ = (() => {
   };
 
   const CATS = {
-    human: { R: 'The Secret Romantic', G: 'Professional Single', C: 'Charm Expert' },
-    robot: { L: 'LoveBot 9000', M: 'Romantic Machine', C: 'Charm Expert' },
+    human: { R: 'The Secret Romantic', G: 'Professional Single', C: 'You are missing your ex' },
+    robot: { L: 'LoveBot 9000', M: 'Romantic Machine', C: 'You are missing your ex' },
   };
   const ORDER = { human: ['C', 'R', 'G'], robot: ['L', 'C', 'M'] };
   const TEXT = {
     'The Secret Romantic': (n) => `Under the jokes you are a full-time romantic. ${n} of 3 blind choices went for the sweet reply, and your secret is out.`,
     'Professional Single': (n) => `Guarded, witty and fully booked by your own standards. ${n} of 3 choices played it cool, so someone has to earn your attention.`,
-    'Charm Expert': (n) => `You turn every message into a spotlight moment. ${n} of 3 choices were pure charm, so expect smiles wherever you go.`,
+    'You are missing your ex': (n) => `You turn every message into a spotlight moment. ${n} of 3 choices were pure charm, so expect smiles wherever you go.`,
     'LoveBot 9000': (n) => `Heart module fully installed. ${n} of 3 choices ran on pure affection, which makes you the most lovable machine in the lab.`,
     'Romantic Machine': (n) => `Mysterious circuits, soft core. ${n} of 3 choices kept feelings in a secret folder, and the lab noticed anyway.`,
     'You are missing your ex': () => 'Your answers keep drifting back to the past. Charm is great, but maybe that chat history needs a closing ceremony.',
