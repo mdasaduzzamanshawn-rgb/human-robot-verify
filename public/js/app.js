@@ -26,7 +26,7 @@
   // ---------- 1. Welcome ----------
   function welcome() {
     const el = show(`<section class="screen">
-      <header class="brand"><h1 class="logo">HUMAN <i>OR</i> <b>ROBOT?</b></h1><p class="sub">THE BLIND EXPERIMENT</p></header>
+      <header class="brand"><h1 class="logo">HUMAN <i>OR</i> <b>ROBOT?</b></h1><p class="sub">THE VERIFICATION EXPERIMENT</p></header>
       <div class="welcome-grid">
         <div class="mascot l">${ART.robot}</div>
         <div class="glass panel">
@@ -82,7 +82,7 @@
       <h2 class="verdict">${robot ? 'ROBOT DETECTED!' : 'HUMAN CONFIRMED!'}</h2>
       ${robot ? `<p>Congratulations! You are ${r.robotPct}% Robot.</p><p>Your human disguise was terrible.</p>` : '<p>Your humanity survived our extremely questionable verification system.</p>'}
       <div class="glass scorebox">Your Verified Score: ${label}</div>
-      
+      <p class="small">These percentages are entertainment scores, not real identity detection.</p>
       <button class="btn" id="go">START BLIND GAME ${ART.arrow}</button></div></section>`);
     $('#go', el).addEventListener('click', blindIntro);
   }
