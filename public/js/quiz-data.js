@@ -23,7 +23,7 @@ window.QUIZ = (() => {
         o('R', '"Should I fall for you too? ❤️"', 'Should I fall for you too? ❤️'),
         o('G', '"Prove it first. 👀"', 'Prove it first. 👀')] },
       { q: 'If someone asks, "Are you single?", what would be your reply?', options: [
-        o('G', '"Yes, but applications are closed. 😂"', 'HYes, but applications are closed. 😂'),
+        o('G', '"Yes, but applications are closed. 😂"', 'Yes, but applications are closed. 😂'),
         o('C', '"Depends on who is asking. 😉"', 'Depends on who is asking. 😉'),
         o('G', '"Single, but not available for everyone. 😎"', 'Single, but not available for everyone. 😎'),
         o('R', '"Why? Are you interested? ❤️"', 'Why? Are you interested? ❤️')] },
@@ -47,7 +47,7 @@ window.QUIZ = (() => {
       { q: 'If your crush asks, "What is your biggest weakness?", what would you say?', options: [
         o('L', '"Your smile. 🥺"', 'CYour smile. 🥺'),
         o('L', '"Chocolate and you. 🍫❤️"', 'Chocolate and you. 🍫❤️'),
-        o('M', '"Someone who knows how to make me smile. 😉"', 'MSomeone who knows how to make me smile. 😉'),
+        o('M', '"Someone who knows how to make me smile. 😉"', 'Someone who knows how to make me smile. 😉'),
         o('C', '"You, but do not let it go to your head. 😂"', 'You, but do not let it go to your head. 😂')] },
     ],
   };
