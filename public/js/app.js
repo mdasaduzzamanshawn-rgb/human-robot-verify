@@ -82,7 +82,7 @@
       <h2 class="verdict">${robot ? 'ROBOT DETECTED!' : 'HUMAN CONFIRMED!'}</h2>
       ${robot ? `<p>Congratulations! You are ${r.robotPct}% Robot.</p><p>Your human disguise was terrible.</p>` : '<p>Your humanity survived our extremely questionable verification system.</p>'}
       <div class="glass scorebox">Your Verified Score: ${label}</div>
-      // <p class="small">These percentages are entertainment scores, not real identity detection.</p>
+      
       <button class="btn" id="go">START BLIND GAME ${ART.arrow}</button></div></section>`);
     $('#go', el).addEventListener('click', blindIntro);
   }
