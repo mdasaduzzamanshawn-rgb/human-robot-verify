@@ -42,7 +42,7 @@ window.QUIZ = (() => {
       { q: 'If your crush says, "I had a dream about you last night", what would you reply?', options: [
         o('C', '"Hopefully, it was a romantic one. 😏"', 'Hopefully, it was a romantic one. 😏'),
         o('C', '"Even in your dreams, you can not escape me! 😂"', 'CEven in your dreams, you can not escape me! 😂'),
-        o('L', '"When are we making it real? ❤️"', 'RWhen are we making it real? ❤️'),
+        o('L', '"When are we making it real? ❤️"', 'When are we making it real? ❤️'),
         o('L', '"Tell me every detail! 👀"', 'Tell me every detail! 👀')] },
       { q: 'If your crush asks, "What is your biggest weakness?", what would you say?', options: [
         o('L', '"Your smile. 🥺"', 'CYour smile. 🥺'),
