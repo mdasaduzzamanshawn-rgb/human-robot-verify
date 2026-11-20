@@ -48,7 +48,7 @@ window.QUIZ = (() => {
         o('L', '"Your smile. 🥺"', 'CYour smile. 🥺'),
         o('L', '"Chocolate and you. 🍫❤️"', 'Chocolate and you. 🍫❤️'),
         o('M', '"Someone who knows how to make me smile. 😉"', 'MSomeone who knows how to make me smile. 😉'),
-        o('C', '"You, but don\'t let it go to your head. 😂"', 'You, but don\'t let it go to your head. 😂')] },
+        o('C', '"You, but do not let it go to your head. 😂"', 'You, but do not let it go to your head. 😂')] },
     ],
   };
 
