@@ -17,38 +17,38 @@ window.QUIZ = (() => {
   const o = (t, x, r) => ({ t: x, trait: t, react: r });
   const BLIND = {
     human: [
-      { q: 'If your crush says, "I think I\'m falling for you", what would you say?', options: [
-        o('C', '"Careful, I\'ll catch you. 😉"', 'Smooth. Gravity just filed a complaint.'),
-        o('C', '"Finally, you noticed me! 😂"', 'Bold. Your crush is laughing and blushing at once.'),
-        o('R', '"Should I fall for you too? ❤️"', 'Soft launch of a love story. Cue the violins.'),
-        o('G', '"Prove it first. 👀"', 'Cool and calculated. The suspense is doing push-ups.')] },
+      { q: 'If your crush says, "I think I am falling for you", what would you say?', options: [
+        o('C', '"Careful, I will catch you. 😉"', 'Careful, I will catch you. 😉'),
+        o('C', '"Finally, you noticed me! 😂"', 'Finally, you noticed me! 😂'),
+        o('R', '"Should I fall for you too? ❤️"', 'Should I fall for you too? ❤️'),
+        o('G', '"Prove it first. 👀"', 'Prove it first. 👀')] },
       { q: 'If someone asks, "Are you single?", what would be your reply?', options: [
-        o('G', '"Yes, but applications are closed. 😂"', 'Hiring freeze detected. HR is crying.'),
-        o('C', '"Depends on who\'s asking. 😉"', 'Mystery level: expert. Now they have to guess.'),
-        o('G', '"Single, but not available for everyone. 😎"', 'Exclusive access only. Velvet rope installed.'),
-        o('R', '"Why? Are you interested? ❤️"', 'Straight to the heart. Your crush forgot what they were saying.')] },
+        o('G', '"Yes, but applications are closed. 😂"', 'HYes, but applications are closed. 😂'),
+        o('C', '"Depends on who is asking. 😉"', 'Depends on who is asking. 😉'),
+        o('G', '"Single, but not available for everyone. 😎"', 'Single, but not available for everyone. 😎'),
+        o('R', '"Why? Are you interested? ❤️"', 'Why? Are you interested? ❤️')] },
       { q: 'If your crush suddenly says, "I wish you were here right now", what would you do?', options: [
         o('C', '"Should I book a ticket? ✈️"', 'Flight booked. Snacks not included.'),
-        o('R', '"Same here, more than you know. ❤️"', 'Aww. The room just got ten degrees warmer.'),
-        o('R', '"Stop making me miss you! 🥹"', 'Missing level: critical. Please send a hug.'),
-        o('C', '"Then come and get me. 😏"', 'Confidence overload. Somebody grab a fan.')] },
+        o('R', '"Same here, more than you know. ❤️"', 'Same here, more than you know. ❤️'),
+        o('R', '"Stop making me miss you! 🥹"', 'Stop making me miss you!'),
+        o('C', '"Then come and get me. 😏"', 'Then come and get me. 😏')] },
     ],
     robot: [
       { q: 'If your crush sends you a selfie at midnight, what would you do?', options: [
-        o('C', '"Trying to steal my sleep? 😍"', 'Charm circuits overheating. Sleep mode cancelled.'),
-        o('L', '"How am I supposed to sleep now? 🥹"', 'Battery full, heart overloaded. Goodnight is impossible.'),
-        o('M', 'Send a heart and pretend to be cool. ❤️', 'Cool.exe stopped responding, but the heart sent perfectly.'),
-        o('M', 'Save it and never tell them. 🤫', 'Secret folder created. Encryption level: love.')] },
+        o('C', '"Trying to steal my sleep? 😍"', 'Trying to steal my sleep? 😍'),
+        o('L', '"How am I supposed to sleep now? 🥹"', 'How am I supposed to sleep now?'),
+        o('M', 'Send a heart and pretend to be cool. ❤️', 'Send a heart and pretend to be cool. ❤️'),
+        o('M', 'Save it and never tell them. 🤫', 'Save it and never tell them. 🤫')] },
       { q: 'If your crush says, "I had a dream about you last night", what would you reply?', options: [
-        o('C', '"Hopefully, it was a romantic one. 😏"', 'Smooth reply detected. Dream analysis complete.'),
-        o('C', '"Even in your dreams, you can\'t escape me! 😂"', 'Charm module online. Escape route not found.'),
-        o('L', '"When are we making it real? ❤️"', 'Reality update requested. Download starting at 100% affection.'),
-        o('L', '"Tell me every detail! 👀"', 'Curiosity protocol engaged. Please narrate slowly.')] },
-      { q: 'If your crush asks, "What\'s your biggest weakness?", what would you say?', options: [
-        o('L', '"Your smile. 🥺"', 'Critical vulnerability found: one smile. Patch unavailable.'),
-        o('L', '"Chocolate and you. 🍫❤️"', 'Sweet combo. Two favorite things, zero defenses.'),
-        o('M', '"Someone who knows how to make me smile. 😉"', 'Mysterious and sweet. Smile recipe now requested.'),
-        o('C', '"You, but don\'t let it go to your head. 😂"', 'Ego warning issued. Heart warning also issued.')] },
+        o('C', '"Hopefully, it was a romantic one. 😏"', 'Hopefully, it was a romantic one. 😏'),
+        o('C', '"Even in your dreams, you can not escape me! 😂"', 'CEven in your dreams, you can not escape me! 😂'),
+        o('L', '"When are we making it real? ❤️"', 'RWhen are we making it real? ❤️'),
+        o('L', '"Tell me every detail! 👀"', 'Tell me every detail! 👀')] },
+      { q: 'If your crush asks, "What is your biggest weakness?", what would you say?', options: [
+        o('L', '"Your smile. 🥺"', 'CYour smile. 🥺'),
+        o('L', '"Chocolate and you. 🍫❤️"', 'Chocolate and you. 🍫❤️'),
+        o('M', '"Someone who knows how to make me smile. 😉"', 'MSomeone who knows how to make me smile. 😉'),
+        o('C', '"You, but don\'t let it go to your head. 😂"', 'You, but don\'t let it go to your head. 😂')] },
     ],
   };
 
